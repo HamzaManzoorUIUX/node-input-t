@@ -1,6 +1,6 @@
 {
   "name": "node-input-t",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "licenses": "MIT",
   "description": "",
   "main": "./dist/index.js",
@@ -11,7 +11,6 @@
     "dist",
     "README.md"
   ],
-
   "scripts": {
     "build": "tsup ./src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
@@ -26,6 +25,8 @@
     "tsup": "^8.2.4"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "typescript": "^5.5.4"
   }
 }
