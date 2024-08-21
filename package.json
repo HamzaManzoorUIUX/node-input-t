@@ -1,12 +1,17 @@
 {
   "name": "node-input-t",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "licenses": "MIT",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": "",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+
   "scripts": {
     "build": "tsup ./src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
